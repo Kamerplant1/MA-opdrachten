@@ -1,1 +1,16 @@
+const date = new Date("11-9-2024"); console.log(date);
 
+const date2 = new Date(2024, 7, 12, 10, 39, 5, 10);
+console.log(date2);
+
+const date3 = newdate(1985,7,12);
+console.log(date3);
+
+const date4 = newdate(1955,9,23);
+console.log(date4); 
+
+const date5 = newdate(2015,8,31);
+console.log(date5);
+
+const date6 = newdate(1885,1,4);
+console.log(date6);
