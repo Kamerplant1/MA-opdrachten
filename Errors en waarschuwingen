@@ -1,0 +1,5 @@
+console.log("Tristan Wals");
+console.warning("16");
+console.error("H.Keizer")
+
+
