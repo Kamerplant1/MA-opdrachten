@@ -1,0 +1,9 @@
+const huidigeDag= "maandag"&"woensdag"&"donderdag"&"vrijdag";
+const huidigeDag2= "zaterdag"&"zondag";
+
+
+if(huidigeDag == huidigeDag){
+    console.log("Ik moet naar school");
+} else if(huidigeDag2 == huidigeDag2) {
+    console.log("Lekker uitslapen!");
+}
