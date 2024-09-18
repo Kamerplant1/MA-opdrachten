@@ -1,1 +1,1 @@
-# MA-opdrachten
+# MA-opdrachten Javascript
