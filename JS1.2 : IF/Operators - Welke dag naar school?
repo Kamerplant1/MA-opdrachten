@@ -1,9 +1,7 @@
-const huidigeDag= "maandag"&"woensdag"&"donderdag"&"vrijdag";
-const huidigeDag2= "zaterdag"&"zondag";
+const huidigeDag = "maandag";
 
-
-if(huidigeDag == huidigeDag){
+if (huidigeDag == "maandag" || huidigeDag == "dinsdag" || huidigeDag == "woensdag" || huidigeDag == "donderdag" || huidigeDag == "vrijdag") {
     console.log("Ik moet naar school");
-} else if(huidigeDag2 == huidigeDag2) {
+} else if (huidigeDag == "zaterdag" || huidigeDag == "zondag") {
     console.log("Lekker uitslapen!");
-}
+} 
