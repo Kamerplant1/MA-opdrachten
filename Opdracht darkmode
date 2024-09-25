@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darkmode</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main">
+    <h1 id="title">Welcome to my baking blog!</h1>
+    <article id="article1" class="article">
+      <h2 class="articleHeader">Marshmellow Teacakes</h2>
+      <ul class="ingredients">
+        <li>Sugar</li>
+        <li>Eggwhite</li>
+        <li>Gelatine</li>
+      </ul>
+      <p class="articleText1" id="articleText1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ab neque suscipit explicabo voluptatibus adipisci nesciunt, at ipsum fuga? Maxime ea quae nesciunt alias culpa quam, distinctio dolor totam sint.
+      </p>
+      <img id="articleImg" src="images/teacakes.jpg" alt="photo of teacakes">
+      
+    </article>
+  </div>
+</body>
+<script>
+ {let text = document.getElementById("title");
+  text.innerText = "rutger bakt";
+  let articleImg = document.getElementById("articleImg");
+ articleImg.src = "images/Thee.jpg";
+}
+ {let currentHour =new Date().getHours();
+  if (currentHour >=15);
+  document.body.classList.add("dark");
+ }
+</script>
+</html>
