@@ -1,6 +1,14 @@
 var name = "Tristan Wals:"
-var name2 = "Jumpforce: 32, Strength: 101 speed: 280 Vehicle: scootmobile Lives left: 3 ammo: 200 number of lasers: 4 battery power: 61 level: 10k Wanted: false "
+var name2 = "Jumpforce: 32
+Strength: 101
+speed: 280
+Vehicle: scootmobile
+Lives left: 3
+ammo: 200
+number of lasers: 4
+battery power: 61
+level: 10k
+Wanted: false "
 console.log("name:" +name2);
-
-console.log ("Tristan Wals:")
-console.log ("Jumpforce: 32, Strength: 101 speed: 280 Vehicle: scootmobile Lives left: 3 ammo: 200 number of lasers: 4 battery power: 61 level: 10k Wanted: false ")
+console.log ("Tristan Wals:");
+console.log ("Jumpforce: 32, Strength: 101 speed: 280 Vehicle: scootmobile Lives left: 3 ammo: 200 number of lasers: 4 battery power: 61 level: 10k Wanted: false ");
